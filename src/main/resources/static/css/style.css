@@ -1,0 +1,109 @@
+@charset "ISO-8859-1";
+
+body {
+	background: #e2e2e2 !important;
+}
+
+/* Start styling for header */
+.navbar {
+	background: #009688 !important;
+}
+
+.navbar-text,
+.navbar-brand,
+.nav-link {
+	color: white !important;
+}
+
+/* .btn-outline-success:hover{
+	background: #009688 !important;
+	color: white !important;
+} */
+.btn-success {
+	color: white !important;
+	border: 1px solid #009688 !important;
+	background: #009688 !important;
+}
+
+/* End of styling for header */
+
+/* start styling for home */
+.banner {
+	width: 100%;
+	height: 95vh;
+	background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
+		url(../image/contact2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+
+/* end styling for home */
+
+/* start styling for signup */
+.my-card {
+	padding: 20px;
+	background: lightcyan;
+}
+
+/* end styling for signup */
+
+/*side bar styling*/
+
+@media only screen and (max-width:600px) {
+	.sidebar {
+		display: none;
+		width: 100% !important;
+		background: white;
+		position: fixed;
+		height: 100vh;
+		padding-top: 20px;
+	}
+}
+
+
+.sidebar {
+	width: 18%;
+	background: white;
+	position: fixed;
+	height: 100%;
+	padding-top: 45px;
+	z-index: 9999;
+}
+
+
+.sidebar a {
+	display: block;
+	width: 100%;
+	padding: 10px 25px;
+	text-decoration: none;
+	color: grey;
+
+}
+
+.sidebar a:hover {
+	background: #e2e2e2;
+}
+
+.sidebar .divider {
+	height: 0.5px;
+	width: 100%;
+	background: #e2e2e2;
+	margin-top: 10px;
+}
+
+.content {
+	margin-left: 20%;
+}
+
+.sidebar .crossBtn {
+
+	position: absolute;
+	top: 0;
+	right: 35px;
+	cursor: pointer;
+	font-size: 36px;
+}
+
+
+/* end of sidebar styling */
